@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: linear-gradient(45deg, #0085ff, #b710b1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.game {
+  width: 350px;
+  text-align: center;
+  background-color: #fff;
+  margin: auto;
+  padding: 30px;
+  border-radius: 15px;
+}
+
+.title {
+  background-color: black;
+  width: 300px;
+  position: relative;
+  color: white;
+  margin: 5px;
+  padding: 8px;
+  font-size: 22px;
+  font-weight: 600;
+  border-radius: 15px;
+  text-align: center;
+}
+span {
+  color: gold;
+}
+
+#status {
+  height: 25px;
+  margin-bottom: 15px;
+  font-size: 22px;
+  font-weight: 600;
+  background-color: gold;
+  color: black;
+  border-radius: 15px;
+}
+.table {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  justify-content: center;
+}
+
+.cell {
+  display: flex;
+  width: 100px;
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+  margin: 2px;
+  font-size: 50px;
+  background-color: rgb(202, 197, 197);
+  border-radius: 15px;
+  transition: background-color 0.3s;
+}
+
+.cell:hover {
+  background-color: gold;
+  cursor: pointer;
+}
+
+#restart {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: black;
+  border: none;
+  color: white;
+  font-size: 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+#restart:hover {
+  background-color: #4caf50;
+}
+
+@media (max-width: 480px) {
+  .title {
+    font-size: 24px;
+  }
+
+  .cell {
+    font-size: 32px;
+  }
+
+  #status {
+    font-size: 16px;
+  }
+}

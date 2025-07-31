@@ -34,7 +34,6 @@ Play as **X** or **O** against a friend in the browser. The game keeps track of 
 3. Click the cells to play.
 4. Click **Restart Game** to play again.
 
-## 🌐 Live Demo (optional)
+## 🌐 Live Demo 
 
-If you enable GitHub Pages, you can share a live version:
-> https://yourusername.github.io/xo-game/
+[https://yourusername.github.io/xo-game/](https://g1do.github.io/xo-game/)

@@ -36,4 +36,4 @@ Play as **X** or **O** against a friend in the browser. The game keeps track of 
 
 ## 🌐 Live Demo 
 
-[Live](https://g1do.github.io/xo-game/)
+[Live Demo](https://g1do.github.io/xo-game/)
